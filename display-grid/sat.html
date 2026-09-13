@@ -1,0 +1,207 @@
+<div id="main">
+      <div id="grid">
+        <div class="card">
+          <img
+            src="https://m.media-amazon.com/images/I/711pn2HTFsL._SR420,420_.png"
+            alt=""
+          />
+          <h4>Heading 1</h4>
+        </div>
+        <div class="card">
+          <img
+            src="https://m.media-amazon.com/images/I/61N7TMKPqTL._SR420,420_.jpg"
+            alt="image2"
+          />
+          <h4>Heading 2</h4>
+        </div>
+        <div class="card">
+          <img
+            src="https://m.media-amazon.com/images/I/61EBKizVHuL._SR420,420_.jpg"
+            alt="image3"
+          />
+          <h4>Heading 3</h4>
+        </div>
+        <div class="card">
+          <img
+            src="https://m.media-amazon.com/images/I/61EBKizVHuL._SR420,420_.jpg"
+            alt="image3"
+          />
+          <h4>Heading 4</h4>
+        </div>
+      </div>
+      <div id="grid">
+        <div class="card">
+          <img
+            src="https://m.media-amazon.com/images/I/711pn2HTFsL._SR420,420_.png"
+            alt=""
+          />
+          <h4>Heading 1</h4>
+        </div>
+        <div class="card">
+          <img
+            src="https://m.media-amazon.com/images/I/61N7TMKPqTL._SR420,420_.jpg"
+            alt="image2"
+          />
+          <h4>Heading 2</h4>
+        </div>
+        <div class="card">
+          <img
+            src="https://m.media-amazon.com/images/I/61EBKizVHuL._SR420,420_.jpg"
+            alt="image3"
+          />
+          <h4>Heading 3</h4>
+        </div>
+        <div class="card">
+          <img
+            src="https://m.media-amazon.com/images/I/61EBKizVHuL._SR420,420_.jpg"
+            alt="image3"
+          />
+          <h4>Heading 4</h4>
+        </div>
+      </div>
+      <div id="grid">
+        <div class="card">
+          <img
+            src="https://m.media-amazon.com/images/I/711pn2HTFsL._SR420,420_.png"
+            alt=""
+          />
+          <h4>Heading 1</h4>
+        </div>
+        <div class="card">
+          <img
+            src="https://m.media-amazon.com/images/I/61N7TMKPqTL._SR420,420_.jpg"
+            alt="image2"
+          />
+          <h4>Heading 2</h4>
+        </div>
+        <div class="card">
+          <img
+            src="https://m.media-amazon.com/images/I/61EBKizVHuL._SR420,420_.jpg"
+            alt="image3"
+          />
+          <h4>Heading 3</h4>
+        </div>
+        <div class="card">
+          <img
+            src="https://m.media-amazon.com/images/I/61EBKizVHuL._SR420,420_.jpg"
+            alt="image3"
+          />
+          <h4>Heading 4</h4>
+        </div>
+      </div>
+      <div id="grid">
+        <div class="card">
+          <img
+            src="https://m.media-amazon.com/images/I/711pn2HTFsL._SR420,420_.png"
+            alt=""
+          />
+          <h4>Heading 1</h4>
+        </div>
+        <div class="card">
+          <img
+            src="https://m.media-amazon.com/images/I/61N7TMKPqTL._SR420,420_.jpg"
+            alt="image2"
+          />
+          <h4>Heading 2</h4>
+        </div>
+        <div class="card">
+          <img
+            src="https://m.media-amazon.com/images/I/61EBKizVHuL._SR420,420_.jpg"
+            alt="image3"
+          />
+          <h4>Heading 3</h4>
+        </div>
+        <div class="card">
+          <img
+            src="https://m.media-amazon.com/images/I/61EBKizVHuL._SR420,420_.jpg"
+            alt="image3"
+          />
+          <h4>Heading 4</h4>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Spanning of the elements!!*/
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 400px 100px;
+  /* grid-template-areas:
+    "header header"
+    "nav nav"
+    "aside main"
+    "footer footer"; */
+}
+
+/* #grid > div {
+  height: 100px;
+} */
+header {
+  background-color: #f87171;
+  /* grid-area: header; */
+  grid-column: span 3;
+  /* grid-row: span 2; */
+}
+
+#grid > div:nth-child(2) {
+  background-color: #fbbf24;
+  grid-area: nav;
+}
+
+#grid > div:nth-child(3) {
+  background-color: #34d399;
+  grid-area: aside;
+}
+#grid > div:nth-child(4) {
+  background-color: #60a5fa;
+  grid-area: main;
+}
+
+footer {
+  background-color: #f5c6c6;
+  grid-area: footer;
+}
+
+/* #main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #93a8d4;
+  padding: 10px;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 20%;
+  padding: 10px;
+  gap: 10px;
+  align-items: center;
+  background-color: #f3f4f6;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card > img {
+  width: 100%;
+} */
+
+/* relative unit:  */
+
+
